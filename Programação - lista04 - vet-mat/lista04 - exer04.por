@@ -19,6 +19,7 @@ programa
 		}
 		escreva("\nSomatória de todos os numeros da matriz: ", soma)
 		escreva("\nSomatória da coluna 0 da matriz: ", somaDiagonal)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 508; 
+ * @POSICAO-CURSOR = 502; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
