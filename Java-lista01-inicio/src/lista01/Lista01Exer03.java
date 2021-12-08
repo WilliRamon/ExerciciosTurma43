@@ -17,7 +17,6 @@ public class Lista01Exer03 {
 		s = (ventrada % 3600) % 60;
 		
 		System.out.println(ventrada + " segundos corresponde a " + h + " horas, " + m + " minutos e " + s + " segundos");
-
 	}
 
 }
