@@ -16,6 +16,7 @@ public class Lista02Exer04 {
 		}else {
 			expo = Math.pow(num, 2);
 			System.out.println("O numero " + num + " é impar e elevado ao quadrado é " + expo);
+			
 		}
 	}
 
