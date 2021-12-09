@@ -2,7 +2,7 @@ package lista01;
 
 import java.util.Scanner;
 
-public class Java01Exer07 {
+public class Lista01Exer07 {
 
 	public static void main(String[] args) {
 		float a, b, c, d, e, f, x, y;
