@@ -23,18 +23,18 @@ public class Lista04Exer03 {
 			}
 		}
 		System.out.println("A somatória das duas matrizes é: ");
-		for(x=0; x < 4; x++) {
-			for(y = 0; y < 6; y++) {
+		for (x = 0; x < 4; x++) {
+			for (y = 0; y < 6; y++) {
 				System.out.print(m1[x][y] + " ");
 			}
 			System.out.println();
 		}
 		System.out.println("\nA difirença das duas matrizes: ");
-		for(x = 0; x < 4; x++) {
-			for(y = 0; y < 6; y++) {
-				if(n1[x][y] >= n2[x][y]) {
+		for (x = 0; x < 4; x++) {
+			for (y = 0; y < 6; y++) {
+				if (n1[x][y] >= n2[x][y]) {
 					m2[x][y] = n1[x][y] - n2[x][y];
-				}else {
+				} else {
 					m2[x][y] = n2[x][y] - n1[x][y];
 				}
 				System.out.print(m2[x][y] + " ");
