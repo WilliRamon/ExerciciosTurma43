@@ -76,7 +76,6 @@ public class Lista03Exer04 {
 		System.out.println("Numero de Outros Calmos: " + outroCalmo);
 		System.out.println("Numero de pessoas nervosas com mais de 40 anos: " + contNervoso);
 		System.out.println("Numero de pessoas calmas com menos de 18 anos: " + contCalmo);
-
 	}
 
 }
