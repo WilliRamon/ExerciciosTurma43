@@ -15,9 +15,7 @@ public class Lista04Exer04 {
 				soma += mat[x][y];
 			}
 		}
-		for(x = 0; x < 3; x++) {
-			somaDiagonal += mat[x][0];
-		}
+		somaDiagonal = mat[0][0] + mat[1][1] + mat[2][2];
 		System.out.println("A somatória de todos os valores da matriz é: " + soma);
 		System.out.println("A somatória da primeira diagonal é: " + somaDiagonal);
 
