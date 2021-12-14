@@ -14,9 +14,7 @@ programa
 				soma = soma + mat[x][y]
 			}
 		}
-		para(x=0; x<3; x++){
-			somaDiagonal = somaDiagonal + mat[x][0]
-		}
+		somaDiagonal = mat[0][0] + mat[1][1] + mat[2][2]
 		escreva("\nSomatória de todos os numeros da matriz: ", soma)
 		escreva("\nSomatória da coluna 0 da matriz: ", somaDiagonal)
 	}
@@ -26,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 499; 
+ * @POSICAO-CURSOR = 353; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
