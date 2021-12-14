@@ -18,6 +18,9 @@ public class Aviao {
 			System.out.println("Ele está apto para vôo");
 		}
 	}
+	public void voar() {
+		this.voando = true;
+	}
 	
 	
 	
