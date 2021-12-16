@@ -71,4 +71,11 @@ public abstract class Produto02 {
 	public void setNovo(boolean novo) {
 		this.novo = novo;
 	}
+
+	@Override
+	public String toString() {
+		return "Produto02 [modelo=" + modelo + ", codigoBarra=" + codigoBarra + ", tamanho=" + tamanho + ", cor=" + cor
+				+ ", ligado=" + ligado + ", novo=" + novo + "]";
+	}
+	
 }
