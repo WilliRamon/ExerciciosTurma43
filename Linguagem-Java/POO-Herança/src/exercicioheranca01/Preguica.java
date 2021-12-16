@@ -11,6 +11,12 @@ public class Preguica extends Animal{
 		this.setSubir(false);
 		System.out.println("A preguiça está descendo da árvore");
 	}
+	
+	@Override
+	public void emitirSom() {
+		this.setSom(true);
+		System.out.println("Sons de Pregiça");
+	}
 
 	public boolean getSubir() {
 		return subir;

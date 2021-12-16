@@ -7,6 +7,7 @@ public class Animal {
 	
 	public void emitirSom() {
 		this.setSom(true);
+		System.out.println("Sons de mamifero");
 	}
 	public void pararSom() {
 		this.setSom(false);
@@ -35,6 +36,8 @@ public class Animal {
 	public void setSom(boolean som) {
 		this.som = som;
 	}
+	
+	
 	
 	public void informacoes() {
 		System.out.println("O nome dele é: " + this.getNome());

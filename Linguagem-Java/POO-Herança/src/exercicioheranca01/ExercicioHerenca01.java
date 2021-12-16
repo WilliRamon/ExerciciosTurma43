@@ -25,7 +25,7 @@ public class ExercicioHerenca01 {
 		
 		preg.setNome("Flash");
 		preg.setIdade(5);
-		preg.pararSom();
+		preg.emitirSom();
 		preg.subirArvore();
 		preg.informacoes();
 	}
